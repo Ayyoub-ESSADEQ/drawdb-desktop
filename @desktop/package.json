@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.1",
+    "@electron/remote": "^2.1.2"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
